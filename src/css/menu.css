@@ -1,0 +1,81 @@
+.navbar{
+    height: 10vh;
+    background-color: transparent;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+/* .bracket{
+    font-size: 17pt;
+    color:yellow;
+    height: 30px;
+    width: 30px;
+    position: relative;
+    left: 10px;
+} */
+
+.bar1, .bar2 {
+    width: 40px;
+    height: 3px;
+    background: linear-gradient(to right, rgb(0, 166, 255) 0%, #037dbf 91%);
+    margin: 4px 0;
+    margin-right: 15px; 
+    transition: 0.3s;
+}
+.change .bar1 {
+    z-index: 3;
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+    transform: rotate(-43deg) translate(-9px, 6px) ;
+    margin-bottom: 19px;
+    width: 35px;
+}
+.change .bar2 {
+    z-index: 3;
+    -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+    transform: rotate(45deg) translate(-8px, -8px) ;
+    width: 35px;
+}
+
+/* Menu Page */
+
+.menu, .change {
+    z-index: 3
+}
+.menu-bar{
+    height: 90vh;
+    width: 100%;
+    position: absolute;
+    background-color: rgb(54, 52, 52);
+    transition:  1.3s;
+    top: 0vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #f37420;
+    z-index: 1;
+    justify-content: space-evenly;
+    font-family: 'Share Tech', sans-serif;
+    font-size: 14pt;
+    text-decoration-line: underline;
+}
+
+.none{
+    height: 0vh;
+    width: 100%;
+    position: absolute;
+    background-color: #ff3300;
+    transition:  1s;
+    top: -300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+/* .menu-close{
+    align-self: flex-end;
+    top: 10px;
+    top: -250px;
+    position: relative;
+} */

@@ -1,0 +1,36 @@
+.resume-page{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+}
+.resume-image{
+    height: 88vh;
+    width: 100%;
+    margin: 10px;
+    background-color: deepskyblue;
+}
+
+
+@media(min-width: 800px) {
+    .parallax-image3 {
+        height: 70vh;
+        width: 100%;
+        background-image: url(/static/media/coding3.85108532.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        filter: blur(3px);
+    }
+    .resume-page{
+        height: 90vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .resume-image{
+        height: 88vh;
+        width: 60%;
+        margin: 10px;
+        background-color: deepskyblue;
+    }
+}
