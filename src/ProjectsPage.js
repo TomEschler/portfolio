@@ -1,5 +1,4 @@
 import React from 'react'
-import Navbar from './Navbar'
 import './css/projects.css'
 
 
@@ -8,7 +7,6 @@ const ProjectsPage = () => {
         return(
             <>
                 <div className='parallax-image2'></div>
-                <Navbar />
                 <div className='project-container'>
                     <div className='project-1'>
                         <div className='project-image-1'></div>

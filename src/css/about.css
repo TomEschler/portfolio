@@ -1,3 +1,17 @@
+
+
+
+.parallax-image{
+    height: 50vh;
+    width: 100%;
+    background-image: url('./images/coding3.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    filter: blur(3px);
+}
+
+
 .about-page{
     background-color: transparent;
     /* background-attachment: fixed; */
@@ -8,7 +22,7 @@
     flex-direction: column;
     justify-content: top;
 }
-.class{
+/* .class{
     position: relative;
     right: 110px;
     font-size: 14pt;
@@ -28,8 +42,9 @@
     font-size: 13pt;
     font-family: 'Share Tech Mono', monospace;
     padding-bottom: 10px;
-}
+} */
 .photo{
+    top: 50px;
     background-image: url('./images/me3.jpg');
     background-size: cover;
     background-repeat: no-repeat;

@@ -18,10 +18,7 @@ body{
     justify-content: center;
 }
 
-.arrow{
-    color: rgb(0, 166, 255);
-    font-size: 12pt;
-}
+
 .name{
     color: rgb(243, 116, 32);
     position: relative;
@@ -65,31 +62,10 @@ body{
     height: 10vh;
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     text-align: center;
 }
-.github{
-    height: 40px;
-    width: 40px;
-    background-image: url('https://cdn.freebiesupply.com/logos/large/2x/github-icon-logo-png-transparent.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-.color-background{
-    background: linear-gradient(to right, rgb(0, 166, 255) 0%, #037dbf 91%);
-    height: 40px;
-    width: 40px;
-    border-radius: 250px;
-}
-.linked-in{
-    height: 40px;
-    width: 40px;
-    background-image: url('https://image.flaticon.com/icons/png/512/56/56591.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
 
 
 @media(min-width: 1000px){
@@ -127,24 +103,5 @@ body{
     .languages{
         margin: 7px;
     }
-    .color-background{
-        background: linear-gradient(to right, rgb(0, 166, 255) 0%, #037dbf 91%);
-        height: 50px;
-        width: 50px;
-        border-radius: 250px;
-    }
-    .github{
-        height: 50px;
-        width: 50px;
-        background-image: url('https://cdn.freebiesupply.com/logos/large/2x/github-icon-logo-png-transparent.png');
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-    .linked-in{
-        height: 50px;
-        width: 50px;
-        background-image: url('https://image.flaticon.com/icons/png/512/56/56591.png');
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
+    
 }

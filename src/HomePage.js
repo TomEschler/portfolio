@@ -6,7 +6,7 @@ const HomePage = () => {
         <div>
             <div className='home'>
                 <div className='name'>
-                    <h3><b className='arrow'>&lt; </b>Thomas Wolfgang <b className='arrow'> &gt; </b></h3>
+                    <h3>Thomas Wolfgang </h3>
                 </div>
                 <div className='title'>
                     
@@ -21,7 +21,7 @@ const HomePage = () => {
                     
                 </div>
                 <div className='last-name'>
-                    <p><h3><b className='arrow'>&lt; / </b> Eschler <b className='arrow'>&gt; </b></h3></p>
+                    <p><h3> Eschler </h3></p>
                 </div>
                 
             </div>

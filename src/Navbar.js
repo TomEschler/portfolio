@@ -49,9 +49,9 @@ class Navbar extends React.Component {
                     <div className='bar2'></div>
                 </div>
                 <div className={menuDropDown}>
-                    <div>ABOUT</div>
-                    <div>RESUME</div>
-                    <div>PROJECTS</div>
+                <i class="far fa-comment-dots" style={{fontSize:'30px',color:'LimeGreen'}}></i>
+                <i class="fab fa-github-square" style={{fontSize:'30px',color:'orange'}}></i>
+                <i class="fab fa-linkedin" style={{fontSize:'30px',color:'DeepSkyBlue'}}></i>
                 </div>
             </div>
         </>

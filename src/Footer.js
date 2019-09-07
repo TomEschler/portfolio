@@ -6,15 +6,7 @@ class Footer extends React.Component {
         return(
             <>
             
-            <div className='footer'>
-                <div className='color-background'>
-                    <div className='linked-in'></div>
-                </div>
-                <div className='color-background'>
-                        <div className='github'></div>
-                </div>
-                {/* <div className='bracket-bottom'>&#125;</div> */}
-            </div>
+            <div className='footer'></div>
             
             </>
         )

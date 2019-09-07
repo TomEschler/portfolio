@@ -1,17 +1,14 @@
 import React from 'react'
-import Navbar from './Navbar'
 import './css/about.css'
 
 const About = () => {
     return(
         <>
             <div className='parallax-image'></div>
-            <div className='about-nav'>
-                <Navbar />
-            </div>
+            
             <div className='about-page'>
             
-                <div className='class'>
+                {/* <div className='class'>
                     <h3>
                         <b style={{color:'DeepSkyBlue'}}>class </b> 
                         <b style={{color:'SpringGreen'}}>Act </b>
@@ -25,16 +22,16 @@ const About = () => {
                 <div className='super'>
                     <b style={{color:'DeepSkyBlue'}}>super&#40;&#41; </b>
                     
-                </div>
+                </div> */}
                 
                 <div className='photo'></div>
-                <div className='this-programmer'>
+                {/* <div className='this-programmer'>
                     <br></br>
                     <b style={{color:'DeepSkyBlue'}}>this</b>
                     <b style={{color:'orange'}}>.programmer = </b>
                     <b style={{color:'SpringGreen'}}>&#34;amazing&#34;</b>
                     <b style={{color:'violet'}}> &#125;</b>
-                </div>
+                </div> */}
                 
                 <div className='about-me'>
                     <br></br>
