@@ -3,7 +3,7 @@ import './css/menu.css'
 
 
 
-class Navbar extends React.Component {
+class Menu extends React.Component {
     constructor() {
         super()
         this.state = {
@@ -60,6 +60,6 @@ class Navbar extends React.Component {
 }
 
 
-export default Navbar 
+export default Menu 
 
 

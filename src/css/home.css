@@ -6,10 +6,11 @@ body{
     /* background: linear-gradient(to bottom right, #171b1d 0%, #000000 100%); */
     margin: 0;
     background-color: #171b1d;
+    height: fit-content;
 }
 .home{
     background-color: transparent;
-    height: 80vh;
+    height: 60vh;
     width: 100%;
     display: flex;
     color: #ff3300;
@@ -22,20 +23,28 @@ body{
 .name{
     color: rgb(243, 116, 32);
     position: relative;
-    right: 55px;
+    right:80px;
     font-size: 15pt;
-    font-family: 'Share Tech Mono', monospace;
+    font-family: 'Patrick Hand SC', sans-serif;
     line-height: 4.6;
 }
 .full-stack{
     font-size: 20pt;
     color:'WhiteSmoke';
+    /* animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+    overflow: hidden;
+    white-space: nowrap; */
 }
+
 .title{
     font-size: 40pt;
     color: whitesmoke;
     font-family: 'Patrick Hand SC', sans-serif;
+    left:13px;
 }
+
 .skills{
     display: flex;
     justify-content: center;
@@ -48,16 +57,39 @@ body{
 .last-name{
     color: rgb(243, 116, 32);
     position: relative;
-    right: 95px;
-    font-family: 'Share Tech Mono', monospace;
+    right:112px;
+    font-family: 'Patrick Hand SC', sans-serif;
     font-size: 15pt;
     line-height: 4.6;
 }
 
 
+.arrow {
+  color: lavender;
+  -webkit-animation: 3s soft-blink infinite alternate;
+  animation: 2s soft-blink infinite alternate;
+  position: relative;
+  opacity: 0.8;
+  left: 92%;
+    bottom: 225px;
+}
+
+@-webkit-keyframes soft-blink {
+  0% { opacity: 0; }
+  50% { opacity: 0; }
+  100% { opacity: 0.8; }
+}
+
+@keyframes soft-blink {
+  0% { opacity: 0; }
+  50% { opacity: 0; }
+  100% { opacity: 0.8; }
+}
+
+
 /* Footer */
 
-.footer{
+/* .footer{
     background-color: transparent;
     height: 10vh;
     width: 100%;
@@ -65,7 +97,7 @@ body{
     justify-content: space-between;
     align-items: center;
     text-align: center;
-}
+} */
 
 
 @media(min-width: 1000px){

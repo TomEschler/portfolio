@@ -2,7 +2,7 @@ import React from 'react'
 import './css/projects.css'
 
 
-const ProjectsPage = () => {
+const Projects = () => {
 
         return(
             <>
@@ -16,14 +16,6 @@ const ProjectsPage = () => {
                         <div className='project-image-1'></div>
                         <h2>Project 2</h2>
                     </div>
-                    <div className='project-3'>
-                        <div className='project-image-1'></div>
-                        <h2>Project 3</h2>
-                    </div>
-                    <div className='project-4'>
-                        <div className='project-image-1'></div>
-                        <h2>Project 4</h2>
-                    </div>
                 </div>
             </>
         )
@@ -31,4 +23,4 @@ const ProjectsPage = () => {
 }
 
 
-export default ProjectsPage
+export default Projects

@@ -1,68 +1,25 @@
 
 
-
-.parallax-image{
-    height: 50vh;
-    width: 100%;
-    background-image: url('./images/coding3.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    filter: blur(3px);
-}
-
-
 .about-page{
     background-color: transparent;
-    /* background-attachment: fixed; */
-    height: auto;
+    height: 90vh;
     width: 100%;
     display: flex;
     align-items: center;
     flex-direction: column;
-    justify-content: top;
+    justify-content: space-evenly;
 }
-/* .class{
-    position: relative;
-    right: 110px;
-    font-size: 14pt;
-    font-family: 'Share Tech Mono', monospace;
-    line-height: 2.5;
-}
-.constructive{
-    position: relative;
-    right: 70px;
-    font-size: 13pt;
-    font-family: 'Share Tech Mono', monospace;
-    padding-bottom: 10px;
-}
-.super{
-    position: relative;
-    right: 97px;
-    font-size: 13pt;
-    font-family: 'Share Tech Mono', monospace;
-    padding-bottom: 10px;
-} */
+
 .photo{
-    top: 50px;
-    background-image: url('./images/me3.jpg');
+    background-image: url('./images/IMG_6073.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    height: 200px;
-    width: 200px;
+    height: 230px;
+    width: 100%;
     align-self: center;
     position: relative;
-    border-style: solid;
-    border-color: orange;
+    
     border-width: 3px;
-}
-.this-programmer{
-    position: relative;
-    right: 5px;
-    font-size: 13pt;
-    font-family: 'Share Tech Mono', monospace;
-    padding-bottom: 10px;
-    padding-top: 15px;
 }
 
 .about-me{
@@ -74,17 +31,23 @@
     text-align: left;
     margin: 25px;
     margin-top: 0;
+    line-height: 2;
+}
+#c3po{
+    background-image: url('./images/c3po2.png');
+    height: 160px;
+    width: 160px;
+    background-size: cover;
+    position: relative;
+    left: 131px;
+    bottom: 158px;
 }
 
 
-
 @media(min-width: 1000px){
-    .about-nav{
-        height: 10vh;
-        width: 100%;
-    }
+    
     .parallax-image{
-        height: 70vh;
+        height: 50vh;
         width: 100%;
         background-image: url('./images/coding3.png');
         background-size: cover;
@@ -98,31 +61,6 @@
         width: 100%;
         display: flex;
     }
-
-    .class{
-        position: relative;
-        right: 40%;
-        font-size: 24pt;
-        font-family: 'Share Tech Mono', monospace;
-        line-height: 2.5;
-        margin-left: 200px;
-    }
-    .constructive{
-        position: relative;
-        right: 36.5%;
-        font-size: 18pt;
-        font-family: 'Share Tech Mono', monospace;
-        padding-bottom: 10px;
-        margin-left: 200px;
-    }
-    .super{
-        position: relative;
-        right: 40.5%;
-        font-size: 18pt;
-        font-family: 'Share Tech Mono', monospace;
-        padding-bottom: 30px;
-        margin-left: 200px;
-    }
     .photo{
         background-image: url(./images/me3.jpg);
         background-size: cover;
@@ -135,15 +73,7 @@
         border-width: 3px;
         right: 25.9%;
     }
-    .this-programmer{
-        position: relative;
-        right: 31.7%;
-        font-size: 17pt;
-        font-family: 'Share Tech Mono', monospace;
-        padding-bottom: 10px;
-        padding-top: 15px;
-        margin-left: 165px;
-    }
+    
     .about-me{
         color: rgb(216, 207, 202);
         position: absolute;

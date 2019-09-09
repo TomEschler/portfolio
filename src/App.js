@@ -1,21 +1,21 @@
 import React from 'react'
-import HomePage from './HomePage'
-import Navbar from './Navbar'
-import Footer from './Footer'
+import Home from './Home'
 import About from './About'
-import ProjectsPage from './ProjectsPage'
+import Projects from './Projects'
 import Resume from './Resume'
+import SwipeableViews from 'react-swipeable-views';
 
 const App = () => {
     return(
-        <div>
-            <Navbar />
-            <HomePage />
-            <Footer />
+    
+        <SwipeableViews>
+            <Home />
             <About />
-            <ProjectsPage />
+            <Projects />
+            <Projects />
             <Resume />
-        </div>
+        </SwipeableViews>
+    
     )
 }
 
