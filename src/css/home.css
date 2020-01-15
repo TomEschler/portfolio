@@ -65,12 +65,13 @@ body{
 
 
 .arrow {
-  color: lavender;
-  -webkit-animation: 3s soft-blink infinite alternate;
-  animation: 2s soft-blink infinite alternate;
-  position: relative;
-  opacity: 0.8;
-  left: 92%;
+    width: 5px;
+    color: lavender;
+    -webkit-animation: 3s soft-blink infinite alternate;
+    animation: 1s soft-blink infinite alternate;
+    position: relative;
+    opacity: 0.8;
+    left: 92%;
     bottom: 225px;
 }
 

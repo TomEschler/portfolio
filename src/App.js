@@ -1,9 +1,10 @@
 import React from 'react'
 import Home from './Home'
 import About from './About'
-import Projects from './Projects'
+import ProjectPageOne from './ProjectPageOne'
 import Resume from './Resume'
 import SwipeableViews from 'react-swipeable-views';
+import ProjectPageTwo from './ProjectPageTwo'
 
 const App = () => {
     return(
@@ -11,8 +12,8 @@ const App = () => {
         <SwipeableViews>
             <Home />
             <About />
-            <Projects />
-            <Projects />
+            <ProjectPageOne />
+            <ProjectPageTwo />
             <Resume />
         </SwipeableViews>
     

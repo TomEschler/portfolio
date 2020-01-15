@@ -6,41 +6,51 @@
     grid-template-columns:   1fr 1fr 1fr 1fr;
     grid-template-rows: repeat(2,1fr);
     grid-row-gap: 5px;
+    font-family: 'Patrick Hand SC',sans-serif;
+    color: whitesmoke;
 }
-.project-image-1{
-    height: 150px;
-    width: 120px;
-    margin: 15px;
-    border-style: solid;
-    border-width: 3px;
-    border-color: black;
-    justify-content: space-evenly;
-}
-.project-1 {
+.project {
     display: flex;
-    background-color: tomato;
     grid-column: 1/-1;
     grid-row: auto;
-    border-style: solid;
-    border-width: 5px;
-    border-color: skyblue;
     margin: 24px;
-    height: 200px;
-    justify-content: space-evenly;
-}
-.project-2 {
-    display: flex;
-    background-color: tomato;
-    grid-column: 1/-1;
-    grid-row: auto;
-    border-style: solid;
-    border-width: 5px;
-    border-color: skyblue;
-    margin: 24px;
-    height: 200px;
-    justify-content: space-evenly;
+    /* height: 200px;
+    justify-content: space-evenly; */
 }
 
+.project-image{
+    height: 200px;
+    width: 120px;
+    margin: 15px;
+    border-radius: 8px; 
+    justify-content: space-evenly;
+}
+.travelCalc{
+    background-image: url(./images/travelCalc.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0 0 5px #9900ff;
+}
+
+.todoList{
+    background-image: url(./images/todo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0 0 7px #ff5050;
+}
+.nasa{
+    background-image: url(./images/nasa.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 0 0 7px #ff5050;
+}
+.tattoo{
+    background-image: url(./images/tattoo.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0 0 7px #9900ff;
+}
 
 @media(min-width: 800px){
     .project-container{
